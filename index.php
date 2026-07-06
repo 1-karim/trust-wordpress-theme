@@ -4,26 +4,25 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <title><?php wp_title('|', true, 'right'); ?></title>
-  <link rel="stylesheet" href="<?php echo esc_url(get_stylesheet_uri()); ?>" type="text/css" />
   <?php wp_head(); ?>
 </head>
 
-<body<?php body_class('bg-[#e0e2db] text-[#141414]'); ?>>
+<body <?php body_class('bg-[#e0e2db] text-[#141414]'); ?>>
   <?php wp_body_open(); ?>
   <div class="preloader">
     <div class="preloader-images">
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-3.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       <div class="preloader-img"><img class="h-full w-full object-cover"
-          src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt="" /></div>
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
     </div>
     <div class="preloader-header absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-difference">
       <h1 class="text-[clamp(2rem,10vw,15rem)] uppercase leading-none  text-white">TRUST</h1>
@@ -84,9 +83,9 @@
   <section class="catalogue grid grid-cols-2 lg:grid-cols-4 gap-5 px-4 mx-auto py-8">
     <div class="h-full object-cover product-card rounded translate-y-full overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -97,9 +96,9 @@
     </div>
     <div class="h-full object-cover product-card rounded translate-y-full overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -110,9 +109,9 @@
     </div>
     <div class="h-full object-cover product-card rounded translate-y-full overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-3.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -123,9 +122,9 @@
     </div>
     <div class="h-full object-cover product-card rounded translate-y-full overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -138,9 +137,9 @@
   <section class="catalogue  grid grid-cols-2 lg:grid-cols-4 gap-5 px-4 mx-auto py-8">
     <div class="h-full object-cover product-card rounded  overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="/slide-img-7.jpg" alt="" class="product-img-hover ">
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
         <div class="flex w-full"><span class="product-name">Kerned Confidence</span><span class="price">$25.00</span>
@@ -150,9 +149,9 @@
     </div>
     <div class="h-full object-cover product-card rounded overflow-hidden">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -163,9 +162,9 @@
     </div>
     <div class="h-full object-cover product-card rounded overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
@@ -176,9 +175,9 @@
     </div>
     <div class="h-full object-cover product-card rounded overflow-hidden  ">
       <div class="img-container bg-gray-300 relative overflow-hidden">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class=" product-img scale-120  -translate-x-12/10 rotate-2 ">
-        <img src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt=""
+        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt=""
           class="product-img-hover ">
       </div>
       <div class="product-info mt-3 flex flex-col justify-between gap-2 text-lg leading-5 md:flex-row">
