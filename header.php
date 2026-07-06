@@ -1,25 +1,3 @@
-<!doctype html>
-<html <?php language_attributes(); ?>>
-
-<head>
-  <meta charset="<?php bloginfo('charset'); ?>" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <?php wp_head(); ?>
-</head>
-
-<body>
-
-  <nav
-    class="fixed left-0 top-0 z-20 flex w-full items-start justify-between px-4 pt-6 mix-blend-difference sm:px-6 lg:px-8">
-    <div class="nav-logo">
-      <a href="<?php echo esc_url(home_url('/')); ?>" class="text-xl font-semibold uppercase text-white">Trust</a>
-    </div>
-    <div class="nav-links flex items-center gap-4 text-sm uppercase text-white sm:gap-6">
-      <a href="<?php echo esc_url(home_url('/shop')); ?>">Shop</a>
-      <a class="js-cart-count" data-count="<?php echo esc_attr(trust_theme_cart_count()); ?>"
-        href="<?php echo esc_url(wc_get_cart_url()); ?>">Bag(0)</a>
-    </div>
-  </nav>
 
 
   <!doctype html>
@@ -36,20 +14,20 @@
 
   <body <?php body_class('bg-[#e0e2db] text-[#141414]'); ?>>
     <div class="preloader">
-      <?php wp_body_open(); ?>
+      
       <div class="preloader-images">
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-3.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-4.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
         <div class="preloader-img"><img class="h-full w-full object-cover"
-            src="<?php get_template_directory_uri(); ?>/assets/trust-textile/trust-textile-2.jpg" alt="" /></div>
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       </div>
       <div class="preloader-header absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-difference">
         <h1 class="text-[clamp(2rem,10vw,15rem)] uppercase leading-none  text-white">TRUST</h1>
