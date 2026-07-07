@@ -8,7 +8,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TRUST ECOMMERCE </title>
-    <link rel="stylesheet" href="src/style.css" />
     <?php wp_head(); ?>
   </head>
 
@@ -30,57 +29,21 @@
             src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/trust-textile/trust-textile-1.jpg" alt="" /></div>
       </div>
       <div class="preloader-header absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-difference">
-        <h1 class="text-[clamp(2rem,10vw,15rem)] uppercase leading-none  text-white">TRUST</h1>
-        <div class="preloader-counter absolute left-[calc(100%+1.5rem)] top-[-1.5rem] overflow-hidden">
-          <p class="text-[clamp(1rem,1.5vw,2rem)] leading-none text-white">000</p>
-        </div>
+      <h1 class="text-[clamp(2rem,10vw,15rem)] uppercase leading-none  text-white">TRUST</h1>
+      <div class="preloader-counter absolute left-[calc(100%+1.5rem)] top-[-1.5rem] overflow-hidden">
+        <p class="text-[clamp(1rem,1.5vw,2rem)] leading-none text-white">000</p>
       </div>
     </div>
+  </div>
 
-    <nav
-      class="fixed left-0 top-0 z-20 flex w-full items-start justify-between px-4 pt-6 mix-blend-difference sm:px-6 lg:px-8">
-      <div class="nav-logo">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="text-xl font-semibold uppercase text-white">Trust</a>
-      </div>
-      <div class="nav-links flex items-center gap-4 text-sm uppercase text-white sm:gap-6">
-        <a href="<?php echo esc_url(home_url('/shop')); ?>">Shop</a>
-        <a class="js-cart-count" data-count="<?php echo esc_attr(trust_theme_cart_count()); ?>"
+  <nav class="fixed left-0 top-0 z-10 flex w-full items-start justify-between px-8 pt-8 mix-blend-difference">
+    <div class="nav-logo">
+      <a href="<?php echo esc_url(home_url('/')); ?>" class="text-xl font-semibold uppercase text-white">Trust</a>
+    </div>
+    <div class="nav-links flex gap-8 text-white">
+      <a  href="<?php echo esc_url(home_url('/shop')); ?>">Shop</a>
+      <!-- this button should open the woocommerce bag wihtout reloading the page  -->
+      <a class="js-cart-count" data-count="<?php echo esc_attr(trust_theme_cart_count()); ?>"
           href="<?php echo esc_url(wc_get_cart_url()); ?>">Bag(0)</a>
-      </div>
-    </nav>
-    <section class="relative h-[70vh] w-full overflow-hidden bg-[#e0e2db] text-[#141414]">
-      <div
-        class="header absolute left-1/2 top-1/2 flex flex-col w-full px-2 -translate-x-1/2 -translate-y-1/2 justify-center overflow-hidden">
-        <h1 class="text-[25vw] font-extrabold uppercase w-full text-center leading-none">Trust</h1>
-
-        <span class="h-1.5 w-0 bg-black header-line">&nbsp;</span>
-
-        <div id="hero-content"
-          class="mb-10 grid grid-cols-8 gap-x-6 mt-5 gap-y-10 text-xs font-bold md:grid-cols-16 md:gap-6">
-          <div class="col-span-3 md:col-span-4">
-            <h2 class="uppercase header-subtitle opacity-0">
-              Trust</h2>
-          </div>
-          <div class="col-span-5 md:col-span-8">
-            <h2 class="mb-3 uppercase header-subtitle opacity-0" id="hero-subtitle">
-              Why</h2>
-            <p id="hero-paragraph" class="text-sm leading-4 tracking-tight md:max-w-[60%] header-subtitle opacity-0">
-              Created by the
-              ++hellohello team, this store and signature collection celebrates our collective creativity and passion
-              for
-              Clothing. Carefully designed.</p>
-          </div>
-          <div class="col-span-3 flex h-full flex-col justify-between md:col-span-3 header-subtitle opacity-0"><a
-              target="_blank" rel="noopener noreferrer" class="link-hover max-w-fit uppercase ">Visit
-              ++ website</a>
-            <a class="link-hover max-w-fit uppercase" href="/shipping-and-return">Shipping
-              Returns</a>
-          </div>
-          <div class="col-span-5 flex justify-end md:col-span-1 header-subtitle opacity-0">
-            ©&nbsp;2026</div>
-          <div class="col-span-8 inline-block md:hidden">
-            <a class="link-hover max-w-fit link-hover uppercase" href="#">Shipping &amp; Returns</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </nav>
