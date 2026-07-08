@@ -44,12 +44,12 @@
     </div>
   </nav>
 
-  <section class="relative h-[70vh] w-full overflow-hidden bg-[#e0e2db] text-[#141414]">
+  <section class="relative h-[70vh] w-full overflow-hidden bg-[#e0e2db] text-[#141414] dark:bg-[#141414] dark:text-[#e0e2db] transition-colors duration-300 ">
     <div
       class="header absolute left-1/2 top-1/2 flex flex-col w-full px-2 -translate-x-1/2 -translate-y-1/2 justify-center overflow-hidden">
       <h1 class="text-[25vw] font-extrabold uppercase w-full text-center leading-none">Trust</h1>
 
-      <span class="h-1.5 w-0 bg-black header-line">&nbsp;</span>
+      <span class="h-1.5 w-0 bg-black bg-[#e0e2db] text-[#141414] dark:bg-[#141414] dark:text-[#e0e2db] transition-colors duration-300 header-line">&nbsp;</span>
 
       <div id="hero-content"
         class="mb-10 grid grid-cols-8 gap-x-6 mt-5 gap-y-10 text-xs font-bold md:grid-cols-16 md:gap-6">
