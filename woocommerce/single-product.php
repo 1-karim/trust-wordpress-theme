@@ -24,7 +24,7 @@
   ?>
 
 
-  <main class="min-h-screen dark:bg-[#141414] dark:text-[#e0e2db] pt-24 text-[#141414]">
+  <main class="min-h-screen dark:bg-[#141414] dark:text-[#e0e2db] pt-24 text-[#141414]" data-barba="container" data-barba-namespace="<?php echo esc_attr( sanitize_title( get_the_title() ) ); ?>">
     <div class="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
       <div class="">
         <div class="max-w-7xl mx-auto px-6 py-12">

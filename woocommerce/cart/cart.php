@@ -3,7 +3,6 @@ defined('ABSPATH') || exit;
 
 do_action('woocommerce_before_cart');
 ?>
-
 <section class="container mx-auto py-12">
 
     <h1 class="text-5xl font-bold mb-10">
